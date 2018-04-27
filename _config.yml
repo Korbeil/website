@@ -28,7 +28,19 @@ github_username:  jekyll
 markdown: kramdown
 theme: jekyll-theme-so-simple
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
+
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
