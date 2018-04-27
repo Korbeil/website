@@ -10,11 +10,14 @@ permalink: /about/
 
 ## Resume
 
+- [2018 -> ?? // Weglot - Integrations Developer]()
 - [2016 -> 2018 // mon-avocat - CTO](#mon-avocat---cto)
 - [2014 -> 2016 // Sellsy - Backend Developer](#sellsy---backend-developer)
 - [2011 -> 2013 // Alsim Simulateurs - Developer](#alsim-simulateurs---developer)
 
 ---
+
+## [Weglot](https://weglot.com/) - Integrations Developer
 
 ## [mon-avocat](https://www.mon-avocat.fr/) - CTO
 mon-avocat.fr is an online search engine to find lawyers close by either according to the domain involved by visitor's search.
