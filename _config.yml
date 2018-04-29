@@ -1,45 +1,56 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site Info
+title:              "Baptiste Leduc"
+description:        "About me & some blog posts"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Baptiste Leduc
-email: baptiste.leduc@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Backend Developer - Presentation & Blog
+# Author Info
+author_name:        "Baptiste Leduc"
+author_email:       baptiste.leduc@gmail.com
+author_gravatar:    4b3784704819b3ed917a92a986e441a3
+twitter_username:   MrFatPanda123
+github_username:    Korbeil
 
-baseurl: ""
-url: ""
+# Google APIs
+google_verify:      false
+google_analytics:   false
 
-twitter_username: MrFatPanda123
-github_username:  Korbeil
+# Site Settings
+url:                ""
+baseurl:            ""
+permalink:          /notes/:title # Post permalink
+timezone:           France/Paris
+mathjax:            true
 
-# Build settings
-markdown: kramdown
-theme: minima
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+  input:            GFM
+sass:
+  style:            :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
+remote_theme: heiswayi/the-plain
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
