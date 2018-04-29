@@ -10,7 +10,7 @@ permalink: /about/
 
 ## Resume
 
-- [2018 -> ?? // Weglot - Integrations Developer]()
+- [2018 -> Now // Weglot - Integrations Developer](#weglot---integrations-developer)
 - [2016 -> 2018 // mon-avocat - CTO](#mon-avocat---cto)
 - [2014 -> 2016 // Sellsy - Backend Developer](#sellsy---backend-developer)
 - [2011 -> 2013 // Alsim Simulateurs - Developer](#alsim-simulateurs---developer)
@@ -18,6 +18,7 @@ permalink: /about/
 ---
 
 ## [Weglot](https://weglot.com/) - Integrations Developer
+Weglot is a SaaS translation platform. The goal is to plug onto everything easily as possible & to deliver high quality automated translations through machine learning and usual Bing/Google/Yandex APIs.
 
 ---
 
