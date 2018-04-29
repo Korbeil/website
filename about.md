@@ -19,6 +19,8 @@ permalink: /about/
 
 ## [Weglot](https://weglot.com/) - Integrations Developer
 
+---
+
 ## [mon-avocat](https://www.mon-avocat.fr/) - CTO
 mon-avocat.fr is an online search engine to find lawyers close by either according to the domain involved by visitor's search.
 
