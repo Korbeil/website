@@ -15,7 +15,7 @@ google_analytics:   false
 
 # Site Settings
 url:                ""
-baseurl:            ""
+baseurl:            "/"
 permalink:          /notes/:title # Post permalink
 timezone:           France/Paris
 mathjax:            true
