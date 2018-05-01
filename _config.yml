@@ -14,7 +14,7 @@ google_verify:      HHnf5ZHystzxEmh_821fA6cPVYxp24g00G92h8KUDN8
 google_analytics:   UA-118536100-1
 
 # Site Settings
-url:                "https://korbeil.github.io/"
+url:                "https://korbeil.github.io"
 baseurl:            ""
 permalink:          /notes/:title # Post permalink
 timezone:           France/Paris
