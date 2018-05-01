@@ -13,7 +13,7 @@ Found my way by making websites with various technologies (such as Laravel or Sy
 Apart from all that, I like to cook & wakeboarding a lot !
 And when I still have time I'm enjoying improving my music skills (mostly piano and MPC).
 
----
+<div class="divider"></div>
 
 # Experiences
 
@@ -24,12 +24,12 @@ And when I still have time I'm enjoying improving my music skills (mostly piano 
 - [2014 -> 2016 // Sellsy - Backend Developer](#sellsy---backend-developer)
 - [2011 -> 2013 // Alsim Simulateurs - Developer](#alsim-simulateurs---developer)
 
----
+<div class="divider"></div>
 
 ## [Weglot](https://weglot.com/) - Integrations Developer
 Weglot is a SaaS translation platform. The goal is to plug onto everything easily as possible & to deliver high quality automated translations through machine learning and usual Bing/Google/Yandex APIs.
 
----
+<div class="divider"></div>
 
 ## [mon-avocat](https://www.mon-avocat.fr/) - CTO
 mon-avocat.fr is an online search engine to find lawyers close by either according to the domain involved by visitor's search.
@@ -47,7 +47,7 @@ With more and more hits, we had to focus onto our core service: the search engin
 ### GraphQL API
 After the first graphic overhaul we stated that we needed to get a new branding and so a real analysis of our frontend. So we started rethink our frontend by focusing on emergent technologies like VueJS. Since VueJS is Javascript-based, we used facebook's GraphQL logic to make an API to connect backend & frontend. GraphQL permit us to make simple queries to get everything frontend needs in a short time. But we choosed to implement it through PHP and not usual node.js implementation. So we got some of the features that made GraphQL (such as subscription), not available."
 
----
+<div class="divider"></div>
 
 ## [Sellsy](https://welcome.sellsy.com/) - Backend Developer
 Sellsy is a company of about 30 employees. They sell an innovative cloud CRM & ERP suite for small and medium business.
@@ -66,7 +66,7 @@ I started to setup gitlab server and to define a correct workflow for us.
 After that we migrate small repositories to the new gitlab infrastructure and we started to document all repositories (atleast with a README.md file).
 Then I wrote a script to use CI on one of our repository (as a pilot to, in future, apply that workflow to our main repository)
 
----
+<div class="divider"></div>
 
 ## [Alsim Simulateurs](https://www.alsim.com/) - Developer
 Alsim Simulators is a company of about 25 employees, they sell flight simulators designed for flight schools worldwide. The best known of their product is ALX
