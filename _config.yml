@@ -14,8 +14,8 @@ google_verify:      false
 google_analytics:   false
 
 # Site Settings
-url:                ""
-baseurl:            "/"
+url:                "https://korbeil.github.io/"
+baseurl:            ""
 permalink:          /notes/:title # Post permalink
 timezone:           France/Paris
 mathjax:            true
