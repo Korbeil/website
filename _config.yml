@@ -18,7 +18,7 @@ url:                "https://korbeil.github.io/"
 baseurl:            ""
 permalink:          /notes/:title # Post permalink
 timezone:           France/Paris
-mathjax:            true
+mathjax:            false
 
 # Site Build
 highlighter:        rouge
