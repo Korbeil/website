@@ -7,7 +7,7 @@ permalink: /about/
 # In short
 
 I'm Baptiste Leduc, a Web Engineer at [Weglot](https://weglot.com/), Paris, France.
-I started my career with Software Development at [Alsim Simulateurs](https://www.alsim.com/) and I fall quickly into the Web.
+I started my career with Software Development and I fall quickly into the Web.
 Found my way by making websites with various technologies (such as Laravel or Symfony).
 
 Apart from all that, I like to cook & wakeboarding a lot !
