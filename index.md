@@ -27,6 +27,11 @@ layout: default
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 				</div>
 			</li>
+			<li class="post-tags">
+			    {% for category in post.categories %}
+    			    <span id="{{ category }}" class="tag-anchor"><i class="fa fa-tag muted"></i> {{ category }}</span>
+			    {% endfor %}
+			</li>
 		</ul>
 
 	{% endfor %}
