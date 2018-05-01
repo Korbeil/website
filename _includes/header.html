@@ -2,10 +2,10 @@
 
     {% if page.url == '/index.html' or page.url == '/' %}
         {% assign link = '/about' %}
-        {% assign prompt = 'About the Author' %}
+        {% assign prompt = 'About' %}
     {% else %}
         {% assign link = '/' %}
-        {% assign prompt = 'Back to Home' %}
+        {% assign prompt = 'Home' %}
     {% endif %}
 
     {% if site.author_gravatar %}
@@ -17,11 +17,11 @@
 </aside>
 
 <aside class="links">
+    <a href="{{ link | prepend: site.baseurl }}" class="link">{{ prompt }}</a>
     {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}" title="GitHub Profile" target="_blank" class="link"><i class="fab fa-github-alt"></i></a>
     {% endif %}
     {% if site.twitter_username %}
         <a href="https://twitter.com/{{ site.twitter_username }}" title="GitHub Profile" target="_blank" class="link"><i class="fab fa-twitter"></i></a>
     {% endif %}
-    <a href="{{ "/about" | prepend: site.baseurl }}" class="link">About</a>
 </aside>
