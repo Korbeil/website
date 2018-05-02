@@ -4,6 +4,9 @@
 
 layout: default
 ---
+<div class="center">
+	<h1>Mealtime</h1>
+</div>
 
 <section>
 

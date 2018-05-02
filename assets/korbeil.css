@@ -23,6 +23,12 @@
 }
 
 /* index.md - post list links */
+main .center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* index.md - post list links */
 section ul li a:hover {
     border-bottom: 1px solid #ffd89b;
 }
