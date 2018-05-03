@@ -16,9 +16,6 @@
 
 </aside>
 
-<div class="center">
-    <h1>Baptiste Leduc</h1>
-</div>
 
 <aside class="links">
     <a href="{{ link | prepend: site.baseurl }}" class="link">{{ prompt }}</a>
@@ -32,3 +29,13 @@
         <a href="https://open.spotify.com/user/{{ site.spotify_user }}" title="Spotify Profile" target="_blank" class="link"><i class="fab fa-spotify"></i></a>
     {% endif %}
 </aside>
+
+{% if page.url == '/index.html' or page.url == '/' %}
+<article>
+    <div class="center">
+        <h1>{{ site.author_name }}</h1>
+    </div>
+
+    <div class="divider"></div>
+</article>
+{% endif %}
