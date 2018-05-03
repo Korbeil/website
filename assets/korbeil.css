@@ -21,6 +21,10 @@
 .links a.link:hover {
     border: 3px solid #ffd89b;
 }
+.links a.link.tag-anchor {
+    font-size: 0.7em;
+    line-height: 4;
+}
 
 /* index.md - post list links */
 body .center {
