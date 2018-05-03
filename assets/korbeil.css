@@ -34,7 +34,7 @@ iframe.spotify {
 }
 
 /* _includes/header.html - image:hover overwrite */
-.logo a:hover {
+.logo a:hover, .logo a:focus {
     background: #ffd89b;
 }
 
