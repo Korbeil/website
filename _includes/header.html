@@ -19,6 +19,7 @@
 
 <aside class="links">
     <a href="{{ link | prepend: site.baseurl }}" class="link">{{ prompt }}</a>
+    <a href="{{ "/tags" | prepend: site.baseurl }}" class="link"><i class="fa fa-tag muted"></i> Tags</a>
     {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}" title="GitHub Profile" target="_blank" class="link"><i class="fab fa-github-alt"></i></a>
     {% endif %}
