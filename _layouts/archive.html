@@ -5,8 +5,13 @@
 layout: default
 ---
 
-<section>
+<article>
+	<h1 class="title">{{ page.title }}</h1>
 
+	<div class="divider"></div>
+</article>
+
+<section>
 	{% for post in page.posts %}
 		<h3>{{ post.date | date: '%Y' }} &#172;</h3>
 
@@ -21,11 +26,10 @@ layout: default
 			</li>
 			<li class="post-tags">
 			    {% for category in post.categories %}
-    			    <span id="{{ category }}" class="tag-anchor"><i class="fa fa-tag muted"></i> {{ category }}</span>
+    			    <a id="{{ category }}" href="{{ site.baseurl }}/tags/{{ category }}" class="tag-anchor"><i class="fa fa-tag muted"></i> {{ category }}</a>
 			    {% endfor %}
 			</li>
 		</ul>
 
 	{% endfor %}
-
 </section>
