@@ -36,8 +36,15 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-archives
   - jekyll-remote-theme
 remote_theme: heiswayi/the-plain
+
+jekyll-archives:
+  enabled: ['categories']
+  layout: archive
+  permalinks:
+    category: '/tags/:name/'
 
 defaults:
   -
