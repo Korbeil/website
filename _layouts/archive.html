@@ -13,12 +13,10 @@ layout: default
 
 <section>
 	{% for post in page.posts %}
-		<h3>{{ post.date | date: '%Y' }} &#172;</h3>
-
 		<ul>
 			<li>
 				<div class="post-date">
-					<span>{{ post.date | date: "%b %d" }}</span>
+					<span>{{ post.date | date: "%b %d, %Y" }}</span>
 				</div>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
