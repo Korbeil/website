@@ -17,7 +17,7 @@ google_analytics:   UA-118536100-1
 # Site Settings
 url:                "https://baptiste-leduc.now.sh"
 baseurl:            ""
-permalink:          /notes/:month-:year-:title # Post permalink
+permalink:          /notes/:month-:year-:title.html # Post permalink
 timezone:           France/Paris
 mathjax:            false
 
