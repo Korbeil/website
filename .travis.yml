@@ -21,3 +21,8 @@ script:
     $NOW_SCRIPT alias $NOW_FLAGS
     $NOW_SCRIPT rm baptiste-leduc $NOW_FLAGS -s -y
     cd -
+
+cache:
+  bundler: true
+  directories:
+    - /home/travis/.rvm/
