@@ -1,0 +1,14 @@
+language: ruby
+os: linux
+
+rvm:
+  - 2.4
+
+script:
+  - jekyll build
+  - |
+    cd _site/
+    now --public -A ../now.json --token $NOW_TOKEN
+    now alias -A ../now.json --token $NOW_TOKEN
+    now rm baptiste-leduc -A ../now.json --token $NOW_TOKEN -s -y
+    cd -
