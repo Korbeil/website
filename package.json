@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "now": "^11.1"
+  },
+  "now": {
+    "name":"baptiste-leduc",
+    "alias":"baptiste-leduc.now.sh",
+    "type":"static"
+  }
+}
