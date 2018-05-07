@@ -13,9 +13,6 @@ install:
   - bundle install --jobs=3 --retry=3
   - npm install
 
-before_script:
-  - rm now.json
-
 script:
   - bundle exec jekyll build
   - |
