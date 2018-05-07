@@ -4,11 +4,20 @@ os: linux
 rvm:
   - 2.4
 
+env:
+  global:
+    - NOW_SCRIPT="../node_modules/.bin/now"
+    - NOW_FLAGS="-A ../now.json --token ${NOW_TOKEN}"
+
+install:
+  - bundle install --jobs=3 --retry=3
+  - npm install
+
 script:
   - bundle exec jekyll build
   - |
     cd _site/
-    now --public -A ../now.json --token $NOW_TOKEN
-    now alias -A ../now.json --token $NOW_TOKEN
-    now rm baptiste-leduc -A ../now.json --token $NOW_TOKEN -s -y
+    $NOW_SCRIPT --public $NOW_FLAGS
+    $NOW_SCRIPT alias $NOW_FLAGS
+    $NOW_SCRIPT rm baptiste-leduc $NOW_FLAGS -s -y
     cd -
