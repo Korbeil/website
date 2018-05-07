@@ -29,7 +29,7 @@ layout: default
 			</li>
 			<li class="post-tags">
 			    {% for category in post.categories %}
-    			    <a id="{{ category }}" href="{{ site.baseurl }}/tags/{{ category }}" class="tag-anchor"><i class="fa fa-tag muted"></i> {{ category }}</a>
+    			    <a id="{{ category }}" href="{{ "/tags/" | append: category | prepend: site.baseurl }}" class="tag-anchor"><i class="fa fa-tag muted"></i> {{ category }}</a>
 			    {% endfor %}
 			</li>
 		</ul>
