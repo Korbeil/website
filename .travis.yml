@@ -7,7 +7,7 @@ rvm:
 env:
   global:
     - NOW_SCRIPT="../node_modules/.bin/now"
-    - NOW_FLAGS="-A ../package.json --token ${NOW_TOKEN}"
+    - NOW_FLAGS="-A ../now.json --token ${NOW_TOKEN}"
 
 install:
   - bundle install --jobs=3 --retry=3
