@@ -71,3 +71,8 @@ iframe.spotify {
 .links a.link.tag-anchor: {
 
 }
+
+/* layout: post - img border */
+article img {
+    border: 2px solid black;
+}
