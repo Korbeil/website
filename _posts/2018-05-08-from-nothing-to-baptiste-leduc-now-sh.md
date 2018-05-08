@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "From nothing to `baptiste-leduc.now.sh`"
+description: "This website genesis, from what it was to what it is (Symfony / Jekyll / GH Pages / Zeit / Travis-CI)"
 date:   2018-05-08 20:57:55 +0200
 categories: travis-ci github open-source zeit jekyll
 ---
