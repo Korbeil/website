@@ -10,10 +10,11 @@ section ul li a:hover {
 }
 
 /* index.md - post list tags */
-section ul li.post-tags {
+li.post-tags {
     margin: -20px 0 25px 0;
+    list-style-type: none;
 }
-section ul li.post-tags a,
+li.post-tags a,
 .links a.link.tag-anchor {
     letter-spacing: normal;
     text-transform: none;
@@ -23,7 +24,7 @@ section ul li.post-tags a,
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     font-size: 0.7em;
 }
-section ul li.post-tags a:hover,
+li.post-tags a:hover,
 .links a.link.tag-anchor:hover {
     border: 1px solid #ffd89b;
 }
@@ -67,9 +68,6 @@ iframe.spotify {
 .links a.link.tag-anchor {
     font-size: inherit;
     line-height: 3;
-}
-.links a.link.tag-anchor: {
-
 }
 
 /* layout: post - img border */

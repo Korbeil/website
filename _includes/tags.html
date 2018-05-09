@@ -1,0 +1,11 @@
+{% if post %}
+    {% assign element = post %}
+{% else %}
+    {% assign element = page %}
+{% endif %}
+
+<li class="post-tags">
+    {% for category in element.categories %}
+    <a id="{{ category }}" href="{{ "/tags/" | append: category | prepend: site.baseurl }}" class="tag-anchor"><i class="fa fa-tag muted"></i> {{ category }}</a>
+    {% endfor %}
+</li>
