@@ -70,7 +70,10 @@ iframe.spotify {
     line-height: 3;
 }
 
-/* layout: post - img border */
+/* layout: post */
+article h1 {
+    margin-bottom: 30px;
+}
 article img {
     border: 2px solid black;
 }
