@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "manifestVersion": "0.1.0",
+  "name": "theme-monokai",
+  "description": "Monokai-inspired Theme for KeeWeb",
+  "author": {
+    "name": "Baptiste Leduc",
+    "email": "baptiste.leduc@gmail.com",
+    "url": "https://baptiste-leduc.now.sh/"
+  },
+  "resources": {
+    "css": true
+  },
+  "licence": "",
+  "url": "https://baptiste-leduc.now.sh/assets/keeweb/theme-monokai/",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxBuVE6rWNapo1pAdDebaMDUOneN83SfuYROX1D0cftAMTGcw47SEbgPCZ4qptE+ZOO+VjJzz3cq8fDeNbu5xRHD8SpspwhSm8epPOS+2qGtz1fofn2XjcBS6sRLF5Dmt10PpcQ8y/0Dp+LKkdJ+6MkDtb5gBViLbn8mhhsMnwSw/PqHbYI/ZB1s8qEzLqCnt/MZJhCjsL6AlPJqegLmZ/ZIebPP98s1FREex39l/ctUafiupLYPLokO4fhrGU9hkEzj2uWQKXaupGq1fc4+BGlN2GMo5aRQdpsQiiY1kvFUalFao1thscViQhw+Oy1LK1FDyea2KhZTCyNdJSLM4UwIDAQAB",
+  "license": "MIT",
+  "theme": {
+    "name": "th-monokai",
+    "title": "Monokai"
+  }
+}
