@@ -38,9 +38,14 @@ $definition->addTag('cache.pool');
 $container->setDefinition('my_bundle.pool', $definition);
 ```
 
-### Clearing pool
+## Usage
 
-And after that, you can even clear your pool with both:
+After that you just have to use usual service injection.
+It will returns you a [PSR-6 compatible](https://www.php-fig.org/psr/psr-6/) object.
+
+## Clearing pool
+
+By the way, you can also clear your pool with both:
 ```bash
 $ php bin/console cache:clear
 ```
