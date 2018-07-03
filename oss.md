@@ -11,7 +11,7 @@ Here is a quick list of projects I'm contributing including my version first sym
 - [php-cache/cache](https://github.com/php-cache/cache)
 - [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv)
 
-In another hand, at my current company (Weglot), all the work I'm doing is also open sourced:
+On another hand, at my current company (Weglot), all the work I'm doing is also open sourced:
 - [weglot/weglot-php](https://github.com/weglot/weglot-php)
 - [weglot/translate-bundle](https://github.com/weglot/translate-bundle)
 - [weglot/translate-laravel](https://github.com/weglot/translate-laravel)
