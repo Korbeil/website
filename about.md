@@ -29,6 +29,13 @@ And when I still have time I'm enjoying improving my music skills (mostly piano 
 ## [Weglot](https://weglot.com/) - Integrations Developer
 Weglot is a SaaS translation platform. The goal is to plug onto everything easily as possible & to deliver high quality automated translations through machine learning and usual Bing/Google/Yandex APIs.
 
+### PHP Developer Kit
+The first aim I got when coming to Weglot was to make a Laravel integration for our product. So before doing that, we choosed to collect all core functionalities from existing integrations (Wordpress and Symfony) and to make a simple library with all theses.
+Here comes the [PHP Developer Kit](https://github.com/weglot/weglot-php). It's splitted in 3 parts:
+- Client: manage all communication with the API & provide API objects to validate data you send.
+- Parser: used to manage website content, filter sentences we gonna traduce and replace them in your DOM to let you print it translated.
+- Util: doesn't really needs to be described.
+
 <div class="divider"></div>
 
 ## [mon-avocat](https://www.mon-avocat.fr/) - CTO
