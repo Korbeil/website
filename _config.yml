@@ -39,7 +39,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-remote-theme
-remote_theme: heiswayi/the-plain
+remote_theme: heiswayi/the-plain@f0a54b22f9c27839b4e18a981bcba6d9e6b83daa
 
 jekyll-archives:
   enabled: ['categories']
