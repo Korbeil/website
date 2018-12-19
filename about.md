@@ -6,7 +6,7 @@ permalink: /about/
 
 # In short
 
-I'm Baptiste Leduc, a Web Engineer at [Weglot](https://weglot.com/), Paris, France.
+I'm Baptiste Leduc, a Web Consultant at [JoliCode](https://jolicode.com/), Paris, France.
 I started my career with Software Development and I fell into the vast world of the Web.
 Found my way by making websites with various technologies (such as Laravel or Symfony).
 
@@ -19,12 +19,16 @@ And when I still have time I'm enjoying improving my music skills (mostly piano 
 
 ## Resume
 
-- [2018 -> Now // Weglot - Integrations Developer](#weglot---integrations-developer)
+- [2018 -> Now // JoliCode - Web Consultant](#jolicode---web-consultant)
+- [2018 -> 2018 // Weglot - Integrations Developer](#weglot---integrations-developer)
 - [2016 -> 2018 // mon-avocat - CTO](#mon-avocat---cto)
 - [2014 -> 2016 // Sellsy - Backend Developer](#sellsy---backend-developer)
 - [2011 -> 2013 // Alsim Simulateurs - Developer](#alsim-simulateurs---developer)
 
 <div class="divider"></div>
+
+## [JoliCode](https://jolicode.com/) - Web Consultant
+JoliCode is an expert agency in the realization of quality Web and mobile projects.
 
 ## [Weglot](https://weglot.com/) - Integrations Developer
 Weglot is a SaaS translation platform. The goal is to plug onto everything easily as possible & to deliver high quality automated translations through machine learning and usual Bing/Google/Yandex and DeepL APIs.
