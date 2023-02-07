@@ -1,6 +1,6 @@
 +++
 title = "Batching Symfony Messenger messages"
-date = "2020-05-11"
+date = "2021-05-11"
 tags = ["php", "symfony", "messenger"]
 +++
 
