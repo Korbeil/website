@@ -1,5 +1,5 @@
 +++
-title = "February discovery playlist"
+title = "🎶 February discovery playlist"
 date = "2017-02-28"
 tags = ["music"]
 +++

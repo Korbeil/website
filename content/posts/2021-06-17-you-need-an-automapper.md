@@ -1,5 +1,5 @@
 +++
-title = "🧑‍🔬 You need an AutoMapper, but you don't know it yet!"
+title = "🔊 You need an AutoMapper, but you don't know it yet!"
 date = "2021-06-17"
 tags = ["talk", "jane", "php", "symfony"]
 +++

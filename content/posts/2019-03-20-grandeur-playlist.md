@@ -1,5 +1,5 @@
 +++
-title = "Grandeur Playlist"
+title = "🎶 Grandeur Playlist"
 date = "2019-03-20"
 tags = ["music"]
 +++

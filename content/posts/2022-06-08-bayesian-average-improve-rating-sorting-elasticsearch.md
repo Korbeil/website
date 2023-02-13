@@ -1,5 +1,5 @@
 +++
-title = "Use Bayesian Averages to Improve Rating Sorting in your Elasticsearch Index"
+title = "✍️ Use Bayesian Averages to Improve Rating Sorting in your Elasticsearch Index"
 date = "2022-06-08"
 tags = ["php", "elasticsearch"]
 +++

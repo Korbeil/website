@@ -1,5 +1,5 @@
 +++
-title = "How to create clean Symfony cache pool"
+title = "✍️ How to create clean Symfony cache pool"
 date = "2018-05-28"
 tags = ["php", "symfony", "cache"]
 +++

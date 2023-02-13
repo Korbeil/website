@@ -1,5 +1,5 @@
 +++
-title = "Rate limit your Symfony APIs!"
+title = "✍️ Rate limit your Symfony APIs!"
 date = "2021-11-22"
 tags = ["php", "symfony", "rate-limiter"]
 +++

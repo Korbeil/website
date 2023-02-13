@@ -1,5 +1,5 @@
 +++
-title = "La fine playlist"
+title = "🎶 La fine playlist"
 date = "2018-05-23"
 tags = ["music"]
 +++

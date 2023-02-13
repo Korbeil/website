@@ -1,5 +1,5 @@
 +++
-title = "My local server with the Symfony binary"
+title = "✍️ My local server with the Symfony binary"
 date = "2019-03-21"
 tags = ["php", "symfony", "local", "mac"]
 +++

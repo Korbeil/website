@@ -1,5 +1,5 @@
 +++
-title = "Batching Symfony Messenger messages"
+title = "✍️ Batching Symfony Messenger messages"
 date = "2021-05-11"
 tags = ["php", "symfony", "messenger"]
 +++

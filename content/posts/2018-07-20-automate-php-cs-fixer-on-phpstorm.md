@@ -1,5 +1,5 @@
 +++
-title = "Automate PHP-CS-Fixer on PhpStorm"
+title = "✍️ Automate PHP-CS-Fixer on PhpStorm"
 date = "2018-07-20"
 tags = ["php", "php-cs-fixer", "phpstorm"]
 +++

@@ -1,5 +1,5 @@
 +++
-title = "From nothing to baptiste-leduc.now.sh"
+title = "✍️ From nothing to baptiste.dev"
 date = "2018-05-08"
 tags = ["migration", "jekyll", "vercel", "github"]
 +++
