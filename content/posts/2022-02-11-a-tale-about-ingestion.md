@@ -1,5 +1,5 @@
 +++
-title = "🔊 A tale about ingestion"
+title = "🎤 A tale about ingestion"
 date = "2022-02-11"
 tags = ["talk", "elasticsearch"]
 +++
