@@ -14,4 +14,5 @@ Then, we will discover how AutoMapper takes advantage of the Serializer ecosyste
 ## Video
 
 Available here: https://live.symfony.com/account/replay/video/593
+
 Also, slides are available there: https://speakerdeck.com/korbeil/you-need-an-automapper-but-you-dont-know-it-yet
