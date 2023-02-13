@@ -12,7 +12,4 @@ Mais même avec les optimisations, l'ingestion peut prendre du temps. Pendant ce
 
 ## Video
 
-Video:
-<video aria-label="ElasticCC: Une histoire d'ingestion" preload="metadata" crossorigin="anonymous" class="_1l-KU _3OgU3 _3-9KU" style="background-color: transparent;" playsinline="" data-testid="hls-video" tabindex="0" src="blob:https://play.vidyard.com/14143bc1-35cf-4059-a877-b0fbd5153eda"></video>
-
-On Elastic website: https://community-conference.elastic.co/session/305686
+Embed are blocked for this talk, but you can see the video on Elastic website: https://community-conference.elastic.co/session/305686
