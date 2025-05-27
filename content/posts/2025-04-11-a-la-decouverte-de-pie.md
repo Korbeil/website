@@ -1,6 +1,6 @@
 +++
 title = "✍️  À la découverte de PIE, l’alternative moderne à PECL pour les extensions PHP"
-date = "2023-12-05"
+date = "2025-04-11"
 tags = ["php", "extension", "pie"]
 +++
 

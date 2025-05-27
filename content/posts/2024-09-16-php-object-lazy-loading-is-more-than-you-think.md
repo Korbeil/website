@@ -1,6 +1,6 @@
 +++
 title = "✍️ PHP Object Lazy-Loading is More Than What You Think"
-date = "2023-12-05"
+date = "2024-09-16"
 tags = ["php", "symfony", "doctrine"]
 +++
 
